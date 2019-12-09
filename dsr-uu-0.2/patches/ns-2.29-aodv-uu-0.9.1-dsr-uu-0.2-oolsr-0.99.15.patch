@@ -1098,7 +1098,7 @@ diff -uprN ns-2.29.orig/smolsr/ns-plugee.cc ns-2.29/smolsr/ns-plugee.cc
 +#include <iostream>
 +#include <fstream>
 +
-+#include "config.h"
++#include "autoconf.h"
 +#include "scheduler.h"
 +
 +#include "agent.h"
@@ -1655,7 +1655,7 @@ diff -uprN ns-2.29.orig/smolsr/ns-plugee.h ns-2.29/smolsr/ns-plugee.h
 +#include <map>
 +#include <queue>
 +
-+#include "config.h"
++#include "autoconf.h"
 +#include "classifier/classifier-port.h"
 +#include "agent.h"
 +

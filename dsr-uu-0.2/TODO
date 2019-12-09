@@ -1,0 +1,13 @@
+dsr-dev.c:529:	/* TODO: Should consider using ip_finish_output instead */
+dsr-rerr.c:174:	/* TODO: Must preserve order of RERR and ACK options from triggering
+dsr-rerr.c:232:		/* TODO: Check options following the RERR option */
+dsr-rrep.c:304:	/* TODO: Should we PAD? The rrep struct is padded and aligned
+dsr-rreq.c:594:	/* TODO: Check Blacklist */
+dsr-srt.c:480:	/* TODO: check for multicast address in next hop or dst */
+dsr-srt.c:481:	/* TODO: check MTU and compare to pkt size */
+link-cache.c:38:#define LC_LINKS_MAX 100	/* TODO: Max links should be calculated from Max
+maint-buf.c:272:	/* TODO: Check unidirectional MAC tx support and potentially discard
+maint-buf.c:275:	/* TODO: Check/set First and Last hop external bits */
+neigh.c:158:/* TODO: Implement neighbor table garbage collection */
+dsr-srt.h:21:/* TODO: This header is not byte order correct... is there a simple way to fix
+dsr-srt.h:27:/* TODO: Fix bit/byte order */
